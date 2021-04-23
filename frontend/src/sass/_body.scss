@@ -1,0 +1,30 @@
+.banner img{
+    width: 100%;
+    background-size: cover;
+    background-position: 100%;
+}
+
+.body{
+    margin-top: 100px;
+    margin-bottom: 60px;
+}
+
+.body-items {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-gap: 100px;
+  align-items: stretch;
+}
+
+.body-items  img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.body-items  h5{
+    text-align: center;
+}
+.body-items p{
+    text-align: center;
+}

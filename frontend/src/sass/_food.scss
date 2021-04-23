@@ -1,0 +1,29 @@
+.body-container-food{margin: 0 auto; width: 80%;}
+
+.food_restaurant{
+    margin-top: 50px;
+}
+.food_restaurant h5{
+    padding-bottom: 20px;
+}
+.food_restaurants_info {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); 
+  grid-gap: 100px;
+  align-items: stretch;
+}
+
+.food_restaurants_info  img{
+    width: 360px;
+    height: 200px;
+    object-fit: contain;
+}
+
+.food_restaurants_info p{
+    font-size: 18px;
+    font-weight: bold;
+    padding-top: 10px;
+    opacity: 0.9;
+}
+.food_links {color: #000000;}
+.food_links:hover{color: #000000; text-decoration: none;}

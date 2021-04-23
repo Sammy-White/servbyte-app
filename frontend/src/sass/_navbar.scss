@@ -1,0 +1,24 @@
+
+.topnav{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1200;
+    box-shadow:0 0 10px 0 rgba(0,0,0,.1);
+}
+.topnav .user{
+    padding-right: 100px;
+    width: fit-content;
+}
+
+.topnav li{
+    list-style-type: none;
+    padding: 10px 10px 5px 10px;
+}
+.topnav .dashboard a{
+    color: #000000;  
+}
+
+.topnav .dashboard a:hover{
+    text-decoration: none;  
+}

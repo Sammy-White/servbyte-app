@@ -1,0 +1,47 @@
+.cart_background{background-color: lightgrey; padding: 120px 0px 80px 0px;}
+.row{width: 100%; display: flex; justify-content: space-between}
+.col-1{width: 8.3%;};
+.col-2{width: 16.6%;}
+.col-3{width: 25%;}
+.col-4{width: 33.33%;}
+.col-5{width: 41.5%;}
+.col-6{width: 50%;}
+.col-7{width: 58.1%;}
+.col-8{width: 66.4%;}
+.col-9{width: 74.7%;}
+.col-10{width: 83%;}
+.col-11{width: 91.3%;}
+.col-12{width: 100%;}
+
+.cart_header_background{background-color: white; border: 1px solid black; border-color: lightgray; border-radius: 3px; padding: 10px 20px;}
+.cart_header_background .cart_header .cart_header_links li{display: inline-block; padding-top: 10px; padding-left: 10px;}
+.cart_header_background .cart_header .cart_header_links .check input[type="text"]{border-top: none; border-left: none; border-right: none; width: 190px; padding-bottom: 10px; border-color:#2474F0 ;}
+.cart_product .cart_product_flex_one .cart_product_details .cart_product_details_img img{width: 100px; height: 100px; object-fit: contain;}
+.cart_product .cart_product_flex_one .cart_product_details .cart_product_details_links li{list-style: none;}
+.cart_product .cart_product_flex_one .cart_product_details .cart_product_details_links{padding-left: 30px;}
+.cart_product .cart_product_flex_one .cart_product_details .cart_product_details_links .one{font-size: 14px;}
+.cart_product .cart_product_flex_one .cart_product_details .cart_product_details_links .two{opacity: 0.5;}
+.cart_product .cart_product_flex_one .cart_product_details .cart_product_details_links .three{padding-top: 15px; opacity: 0.5; font-weight: bold;}
+.cart_product .cart_product_flex_one .cart_product_details .cart_product_details_links .four{padding-top: 15px;}
+.cart_product .cart_product_flex_one .cart_product_details .cart_product_details_links .four #line-through{text-decoration: line-through; opacity: 0.5;}
+.cart_product .cart_product_flex_one .cart_product_details .cart_product_details_links .four #percent{color: green; }
+.cart_product .cart_product_flex_one .cart_product_details .cart_product_details_links .four #offers{color: green; }
+.cart_product .cart_product_flex_two .cart_product_action .qty li{list-style: none; display: inline-block; padding-right: 15px;}
+.cart_product .cart_product_flex_two .cart_product_action .qty{padding-top: 20px;}
+.cart_product .cart_product_flex_two .cart_product_action .remove li{list-style: none; display: inline-block;}
+.cart_product .cart_product_flex_two .cart_product_action .remove{padding-left: 5px; padding-top: 20px;}
+.cart_product .cart_product_flex_two .cart_product_action .qty #minus{border: 1px solid gray; padding: 3px 5px;  border-radius: 50%; font-size: 15px; cursor: pointer;}
+.cart_product .cart_product_flex_two .cart_product_action .qty #value{border: 1px solid gray; padding: 3px 5px;   font-size: 15px;}
+.cart_product .cart_product_flex_two .cart_product_action .qty #plus{border: 1px solid gray;  padding: 3px 5px; border-radius: 50%; font-size: 15px; cursor: pointer;}
+.cart_product .cart_product_flex_two .cart_product_action .remove #save{font-size: 15px; font-weight: bold;}
+.cart_product .cart_product_flex_two .cart_product_action .remove #remove{padding-left: 20px; font-size: 15px; font-weight: bold; cursor: pointer;}
+.cart_product .cart_product_flex_two .cart_product_action .remove #remove button{background-color: #000000; color: #ffff; border: none; padding: 5px 10px;}
+.cart_header_background .order button{float: right; background-color: #FB641B; border: none; padding: 15px 40px; color: white; font-weight: bold;}
+.cart_product_price_background{background-color: white; border: 1px solid black; border-color: lightgray; border-radius: 3px; padding: 10px 20px; margin-left: 10px;}
+.cart_product_price_background .cart_product_price_header{opacity: 0.5;}
+.cart_product_price_background .total_amt p{font-weight: bold;}
+.shield{padding-left: 20px; padding-top: 20px;}
+.shield li{list-style: none; display: inline-block;}
+.shield img{opacity: 0.5;}
+.shield #save{padding-left: 15px; opacity: 0.5; font-size: small; font-weight: bold;}
+.continue_shopping{border: 1px solid orange; color: orange; background-color: whitesmoke; font-weight: bold; padding: 10px; margin-bottom: 20px;}

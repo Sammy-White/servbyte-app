@@ -1,0 +1,36 @@
+.restaurant-container-food{margin: 0 auto; width: 87%;}
+.restaurant-container-food h4{margin-bottom: 30px;}
+.restaurant .restaurant_details{
+    background-color: white;
+    height: auto;
+    box-shadow:0 0 10px 0 rgba(0,0,0,.1);
+    padding: 20px 100px;
+    margin-bottom: 50px;
+}
+.restaurant .restaurant_details span{
+    font-size: 17px;
+    opacity: 0.6;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: fit-content;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.container {
+  padding: 2px 16px;
+}
+.amount{font-size: 18px; font-weight: bold; opacity: 0.6;}
+.time{font-size: 18px; font-weight: bold; opacity: 0.6;}
+
+.restaurant_meals {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); 
+  grid-gap: 20px;
+  align-items: stretch;
+}
