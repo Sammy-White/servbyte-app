@@ -18,4 +18,6 @@ After successfull downlaod from github
 2. Navigate to the folder path 
 3. Run this command * npm install * to install all dependencies needed to run the application 
 4. Run this command * npm start * to start up development server. 
-5. Then you are good to go!
+5. After selecting your city
+6. Meal is only available for the first restaurant 
+7. Then you are good to go!
